@@ -26,7 +26,7 @@ public class CssTextEditor extends JPanel implements NodeJsDataListener {
     public CssTextEditor(CssContext ctx) {
         this.ctx = ctx;
         setLayout(new BorderLayout());
-        NodeJsProcess.getInstance().addDataListener(this);
+        NodeJsServer.getInstance().addDataListener(this);
 
         FileType fileType = FileTypeManager.getInstance().getFileTypeByExtension("css");
         Document document = FileDocumentManager.getInstance().getDocument(ctx.getFile());
@@ -37,7 +37,7 @@ public class CssTextEditor extends JPanel implements NodeJsDataListener {
                 if (e.isControlDown() && e.isAltDown() && e.getKeyCode() == 76) {
                     NodeJsProtocol request = new NodeJsProtocol(ProcessType.FORMATTER, LanguageType.CSS, ctx.getFile().toString());
                     request.putData("text", editor.getDocument().getText());
-                    NodeJsProcess.getInstance().write(request);
+                    NodeJsServer.getInstance().write(request);
                 }
             }
         });
@@ -48,14 +48,14 @@ public class CssTextEditor extends JPanel implements NodeJsDataListener {
                 String text = editor.getDocument().getText();
                 NodeJsProtocol request = new NodeJsProtocol(ProcessType.HIGHLIGHTER, LanguageType.CSS, filename);
                 request.putData("text", text);
-                NodeJsProcess.getInstance().write(request);
+                NodeJsServer.getInstance().write(request);
             }
         });
         add(editor.getComponent(), BorderLayout.CENTER);
     }
 
     public void releaseMemory() {
-        NodeJsProcess.getInstance().removeDataListener(this);
+        NodeJsServer.getInstance().removeDataListener(this);
         EditorFactory.getInstance().releaseEditor(editor);
     }
 

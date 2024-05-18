@@ -17,5 +17,7 @@
                   language="Css"
                   extensions="css"/>
         <fileEditorProvider implementation="com.tcpip147.nodeformatter.css.CssFileEditorProvider"/>
+        <completion.contributor language="any"
+                                implementationClass="com.tcpip147.nodeformatter.css.CssCompletionContributor"/>
     </extensions>
 </idea-plugin>

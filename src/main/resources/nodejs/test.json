@@ -1,0 +1,697 @@
+{
+  "processType": "COMPLETION",
+  "languageType": "CSS",
+  "filename": "file://D:/Projects/node-formatter-test/test.css",
+  "data": {
+    "completion": {
+      "isIncomplete": true,
+      "itemDefaults": {
+        "editRange": {
+          "start": { "line": 1, "character": 13 },
+          "end": { "line": 1, "character": 15 }
+        }
+      },
+      "items": [
+        {
+          "label": "large",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "large"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "larger",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "larger"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "medium",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "medium"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "small",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "small"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "smaller",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "smaller"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "x-large",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "x-large"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "x-small",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "x-small"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "xx-large",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "xx-large"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "xx-small",
+          "tags": [],
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "xx-small"
+          },
+          "sortText": " ",
+          "kind": 12
+        },
+        {
+          "label": "initial",
+          "documentation": "Represents the value specified as the property’s initial value.",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "initial"
+          },
+          "kind": 12
+        },
+        {
+          "label": "inherit",
+          "documentation": "Represents the computed value of the property on the element’s parent.",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "inherit"
+          },
+          "kind": 12
+        },
+        {
+          "label": "unset",
+          "documentation": "Acts as either `inherit` or `initial`, depending on whether the property is inherited or not.",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "unset"
+          },
+          "kind": 12
+        },
+        {
+          "label": "var()",
+          "documentation": "Evaluates the value of a custom variable.",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "var($1)"
+          },
+          "kind": 3,
+          "insertTextFormat": 2,
+          "command": {
+            "title": "Suggest",
+            "command": "editor.action.triggerSuggest"
+          }
+        },
+        {
+          "label": "calc()",
+          "documentation": "Evaluates an mathematical expression. The following operators can be used: + - * /.",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "calc($1)"
+          },
+          "kind": 3,
+          "insertTextFormat": 2
+        },
+        {
+          "label": "12cap",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cap"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12ch",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12ch"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cm",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cm"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqb",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqb"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqi",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqi"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqmax",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqmax"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqmin",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqmin"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12cqw",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12cqw"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12dvb",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12dvb"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12dvh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12dvh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12dvi",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12dvi"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12dvw",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12dvw"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12em",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12em"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12ex",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12ex"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12ic",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12ic"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12in",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12in"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12lh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12lh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12lvb",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12lvb"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12lvh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12lvh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12lvi",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12lvi"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12lvw",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12lvw"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12mm",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12mm"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12pc",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12pc"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12pt",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12pt"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12px",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12px"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12q",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12q"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12rcap",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12rcap"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12rch",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12rch"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12rem",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12rem"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12rex",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12rex"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12ric",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12ric"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12rlh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12rlh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12svb",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12svb"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12svh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12svh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12svi",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12svi"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12svw",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12svw"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vb",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vb"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vh",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vh"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vi",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vi"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vmax",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vmax"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vmin",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vmin"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12vw",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12vw"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12%",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12%"
+          },
+          "kind": 11
+        },
+        {
+          "label": "12fr",
+          "textEdit": {
+            "range": {
+              "start": { "line": 1, "character": 13 },
+              "end": { "line": 1, "character": 17 }
+            },
+            "newText": "12fr"
+          },
+          "kind": 11
+        }
+      ]
+    }
+  },
+  "error": null
+}

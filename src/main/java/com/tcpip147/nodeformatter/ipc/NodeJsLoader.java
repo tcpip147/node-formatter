@@ -12,9 +12,10 @@ public class NodeJsLoader implements ProjectActivity {
     @Nullable
     @Override
     public Object execute(@NotNull Project project, @NotNull Continuation<? super Unit> continuation) {
-        NodeJsProcess process = NodeJsProcess.getInstance();
-        process.unzipJar();
-        process.start();
+        NodeJsServer server = NodeJsServer.getInstance();
+        server.unzipJar();
+        server.start();
+        NodeJsProcess.getInstance().start();
         return null;
     }
 
