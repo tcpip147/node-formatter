@@ -1,0 +1,21 @@
+<idea-plugin>
+    <id>com.tcpip147.web-support</id>
+    <name>Node Formatter</name>
+    <vendor email="tcpip147@github.com" url="https://github.com/tcpip147">tcpip147</vendor>
+    <description><![CDATA[This plugin supports web language developments.]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity implementation="com.tcpip147.nodeformatter.ipc.NodeJsLoader"/>
+        <applicationService serviceImplementation="com.tcpip147.nodeformatter.setting.NodeSettingsState"/>
+        <applicationConfigurable parentId="tools"
+                                 instance="com.tcpip147.nodeformatter.setting.NodeSettingsConfigurable"
+                                 displayName="Node Formatter"/>
+
+        <fileType name="Css"
+                  implementationClass="com.tcpip147.nodeformatter.css.CssFileType"
+                  fieldName="INSTANCE"
+                  language="Css"
+                  extensions="css"/>
+        <fileEditorProvider implementation="com.tcpip147.nodeformatter.css.CssFileEditorProvider"/>
+    </extensions>
+</idea-plugin>
